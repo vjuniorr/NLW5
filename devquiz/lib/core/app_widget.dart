@@ -8,7 +8,8 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "DevQuiz",
-      home: ChallengePage(),
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 }
